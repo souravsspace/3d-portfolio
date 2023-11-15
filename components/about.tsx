@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { services } from "@/constants"
 import { fadeIn, textVariant } from "@/utils/motion"
 import Wrapper from "@/components/ui/wrapper"
-import ServiceCard from "@/components/service-card"
+import ServiceCard from "@/components/ui/service-card"
 
 function About() {
    return (

@@ -3,18 +3,6 @@ import {
    backend,
    creator,
    web,
-   javascript,
-   typescript,
-   html,
-   css,
-   reactjs,
-   redux,
-   tailwind,
-   nodejs,
-   mongodb,
-   git,
-   figma,
-   docker,
    meta,
    starbucks,
    tesla,
@@ -22,7 +10,6 @@ import {
    carrent,
    jobit,
    tripguide,
-   threejs,
 } from "@/public/assets"
 
 export const navLinks = [
@@ -62,55 +49,55 @@ const services = [
 const technologies = [
    {
       name: "HTML 5",
-      icon: html,
+      icon: "/assets/tech/html.png",
    },
    {
       name: "CSS 3",
-      icon: css,
+      icon: "/assets/tech/css.png",
    },
    {
       name: "JavaScript",
-      icon: javascript,
+      icon: "/assets/tech/javascript.png",
    },
    {
       name: "TypeScript",
-      icon: typescript,
+      icon: "/assets/tech/typescript.png",
    },
    {
       name: "React JS",
-      icon: reactjs,
+      icon: "/assets/tech/reactjs.png",
    },
    {
       name: "Redux Toolkit",
-      icon: redux,
+      icon: "/assets/tech/redux.png",
    },
    {
       name: "Tailwind CSS",
-      icon: tailwind,
+      icon: "/assets/tech/tailwind.png",
    },
    {
       name: "Node JS",
-      icon: nodejs,
+      icon: "/assets/tech/nodejs.png",
    },
    {
       name: "MongoDB",
-      icon: mongodb,
+      icon: "/assets/tech/mongodb.png",
    },
    {
       name: "Three JS",
-      icon: threejs,
+      icon: "/assets/tech/threejs.svg",
    },
    {
       name: "git",
-      icon: git,
+      icon: "/assets/tech/git.png",
    },
    {
       name: "figma",
-      icon: figma,
+      icon: "/assets/tech/figma.png",
    },
    {
       name: "docker",
-      icon: docker,
+      icon: "/assets/tech/docker.png",
    },
 ]
 
